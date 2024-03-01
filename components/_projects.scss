@@ -1,0 +1,19 @@
+.projects__main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 7.4rem;
+    row-gap: 7.5rem;
+}
+.projects__img {
+    box-shadow: 0 0 0.5rem rgba(0,0,0,0.2);
+    height: 100%;
+    max-width: 100%;
+}
+
+.projects__section {
+    justify-self: center;
+}
+
+.projects__data {
+    align-self: center;
+}
